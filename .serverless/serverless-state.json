@@ -119,7 +119,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ng7/production/1571342173516-2019-10-17T19:56:13.516Z/ng7.zip"
+                "S3Key": "serverless/ng7/production/1571715238276-2019-10-22T03:33:58.276Z/ng7.zip"
               },
               "FunctionName": "ng7-production-api",
               "Handler": "lambda.universal",
@@ -138,14 +138,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "ApiLambdaVersionDIMIearvcbzzubZ5EiVQRLy28vVV10JWt10iPmztig": {
+          "ApiLambdaVersionRWk68Z8hDfz2yWRIBW5Tr4y6s5L1FQKfJDzRaO75ap0": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ApiLambdaFunction"
               },
-              "CodeSha256": "Z7Sz2RV0gWyvQORnBQbnOCovm5um8X5EtXIxJtDRX+k="
+              "CodeSha256": "AyX+B8lVkNkl/M9B/VG9aUF5NpwL1lxwx4jwmKtuCng="
             }
           },
           "ApiGatewayRestApi": {
@@ -263,7 +263,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1571341902198": {
+          "ApiGatewayDeployment1571715050767": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -333,7 +333,7 @@
           "ApiLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ApiLambdaVersionDIMIearvcbzzubZ5EiVQRLy28vVV10JWt10iPmztig"
+              "Ref": "ApiLambdaVersionRWk68Z8hDfz2yWRIBW5Tr4y6s5L1FQKfJDzRaO75ap0"
             }
           },
           "ServiceEndpoint": {
@@ -420,7 +420,7 @@
     "artifact": "C:\\Users\\64tok\\Workspace\\Skills-Angular\\.serverless\\ng7.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/ng7/production/1571342173516-2019-10-17T19:56:13.516Z",
+    "artifactDirectoryName": "serverless/ng7/production/1571715238276-2019-10-22T03:33:58.276Z",
     "artifact": "ng7.zip"
   }
 }
